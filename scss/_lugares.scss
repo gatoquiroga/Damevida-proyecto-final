@@ -1,0 +1,24 @@
+.imghei{
+    
+    padding-bottom: 15px;
+    
+}
+
+.fondolugares {
+    background-image: url(../imagen/damevida/concrete-ga15597673_1920.jpg);
+}
+
+.parrafolugar{
+    background-color: silver;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    border: white;
+    
+}
+@media only screen and (max-width: 768px){
+    .imghei {
+        width: auto;
+        height: auto;
+    }
+}

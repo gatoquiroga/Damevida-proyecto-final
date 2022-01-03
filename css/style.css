@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2? family = Poppins: wght @ 100 & display = swap");
+.imagenlogo {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: space-between; }
+
+/*
+.links {
+    background-color: $colorPrincipal;
+     color: $colorletra;
+     display: flex;
+     justify-content: space-evenly;
+     
+    
+}
+
+
+ .links {
+     a {
+         color: $colorsecundario;
+     }
+     
+ }
+ */
+.logoindex {
+  display: flex;
+  justify-content: center; }
+
+/*
+ .fondologo {
+     background-image: url(../imagen/damevida/hintersee-3601004_1920.jpg);  
+ }*/
+.fondologo {
+  background-image: url(../imagen/damevida/nature-g3d4f8507a_1920.jpg); }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(97, 91, 90, 0.658);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.linkfooter {
+  list-style: none;
+  text-decoration: none;
+  color: black; }
+
+.indextexto {
+  display: flex;
+  justify-content: space-around;
+  border-left: white;
+  border-inline-color: white;
+  padding-left: 100px;
+  padding-top: 100px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 300px; }
+
+.tituloindex {
+  font-size: 40px; }
+
+.textoquienes {
+  background-color: #575550;
+  opacity: 90%;
+  border-radius: 20px;
+  padding-top: 100px;
+  color: white; }
+
+.textoquienesdos {
+  background-image: url(../imagen/damevida/backpack-ge048c1ff1_1280.jpg);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 200px; }
+
+.imgquienes {
+  border-radius: 30px; }
+
+.imghei {
+  padding-bottom: 15px; }
+
+.fondolugares {
+  background-image: url(../imagen/damevida/concrete-ga15597673_1920.jpg); }
+
+.parrafolugar {
+  background-color: silver;
+  border-radius: 15px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  border: white; }
+
+@media only screen and (max-width: 768px) {
+  .imghei {
+    width: auto;
+    height: auto; } }
+
+.titulonoticias {
+  font-family: 'Times New Roman', Times, serif;
+  color: orange;
+  background-image: url(../imagen/damevida/blackboard-ge1204717f_1920.jpg); }
+
+.titulonoticias {
+  background-color: rgba(20, 20, 66, 0.801);
+  opacity: 90%; }
+
+.fondotexto {
+  background-color: #111049; }
