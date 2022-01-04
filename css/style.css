@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family = Poppins: wght @ 100 & display = swap");
+@import url("https://fonts.googleapis.com/css2? family = Alegreya + SC & family = Bebas + Neue & family = Josefin + Sans & family = Poppins: wght @ 100; 200 & display = intercambio");
 .imagenlogo {
   height: 100%;
   width: 10%;
@@ -95,12 +95,91 @@
 
 .titulonoticias {
   font-family: 'Times New Roman', Times, serif;
-  color: orange;
-  background-image: url(../imagen/damevida/blackboard-ge1204717f_1920.jpg); }
-
-.titulonoticias {
-  background-color: rgba(20, 20, 66, 0.801);
+  color: #fcfaf8;
+  background-color: #1e1e52;
+  border-radius: 15px;
   opacity: 90%; }
 
-.fondotexto {
-  background-color: #111049; }
+.titulomam {
+  background-color: #1e1e52;
+  opacity: 90%;
+  color: whitesmoke; }
+
+.family {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: #1e1e52; }
+
+@media only screen and (max-width: 768px) {
+  .titulonoticias {
+    font-size: 20px; }
+  .titulonoticia {
+    font-size: 30px; } }
+
+.navp {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-bottom: 40px; }
+
+.links {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding-left: 5px; }
+
+.logocentrar {
+  display: flex;
+  justify-content: center; }
+
+.lista {
+  list-style: none; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 30px; }
+
+.logofooter {
+  display: flex;
+  justify-content: center; }
+
+.formulario {
+  display: flex;
+  justify-content: center; }
+
+.formularios {
+  font-size: 20px;
+  display: flex;
+  columns: auto; }
+
+.gridcontacto {
+  display: grid;
+  grid-template-areas: "titulo " "texto " "formulario"; }
+
+.titulocontacto {
+  grid-area: "titulo";
+  display: flex;
+  justify-content: center; }
+
+.textocontacto {
+  grid-area: "texto";
+  display: flex;
+  justify-content: center;
+  background-color: blue; }
+
+.fonti {
+  font-size: 30px; }
+
+.fontia {
+  font-size: 60px; }
+
+@media only screen and (max-width: 768px) {
+  .fontia {
+    font-size: 40px; }
+  .fonti {
+    font-size: 20px; }
+  .textocontacto {
+    display: flex;
+    columns: 2fr; } }

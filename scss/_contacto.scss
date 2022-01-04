@@ -1,0 +1,80 @@
+.navp {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 40px;
+   padding-left: 15px;
+   padding-bottom: 40px;
+}
+.links {
+    
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
+.logocentrar{
+    display: flex;
+    justify-content: center;
+}
+.lista{
+    list-style: none;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+    
+}
+.logofooter {
+    display: flex;
+    justify-content: center;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+.formularios{
+    font-size: 20px;
+    display: flex;
+    columns: auto;
+}
+
+.gridcontacto {
+    display: grid;
+    grid-template-areas: "titulo "
+    "texto "
+    "formulario";
+}
+.titulocontacto{
+    grid-area: "titulo";
+    display: flex;
+    justify-content: center;
+}
+.textocontacto {
+    grid-area: "texto";
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+.fonti {
+    font-size: 30px;
+}
+.fontia {
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 768px){
+    .fontia {
+        font-size: 40px;
+    }
+    .fonti {
+        font-size: 20px;
+    }
+
+    .textocontacto {
+        display: flex;
+        columns: 2fr;
+    }
+
+     }

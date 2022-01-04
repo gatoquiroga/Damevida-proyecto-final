@@ -1,12 +1,35 @@
 .titulonoticias {
     font-family: 'Times New Roman', Times, serif;
-    color: orange;
-    background-image: url(../imagen/damevida/blackboard-ge1204717f_1920.jpg);
-}
-.titulonoticias {
-    background-color: rgba(20, 20, 66, 0.801);
+    color: rgb(252, 250, 248);
+    background-color: rgb(30, 30, 82);
+    border-radius: 15px;
     opacity: 90%;
+   
+    
 }
-.fondotexto {
-    background-color: rgb(17, 16, 73);
+
+
+.titulomam {
+    background-color: rgb(30,30,82);
+    opacity: 90%;
+    color: whitesmoke;
 }
+.family {
+    font-family: 'Poppins', sans-serif ;
+    font-size: 50px;
+    color: rgb(30,30,82);
+     }
+
+
+     @media only screen and (max-width: 768px){
+         .titulonoticias{
+             font-size: 20px;
+         }
+         .titulonoticia {
+            font-size: 30px;
+        }
+        
+
+         }
+     
+     
