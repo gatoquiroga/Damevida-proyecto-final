@@ -114,7 +114,13 @@
   .titulonoticias {
     font-size: 20px; }
   .titulonoticia {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .titulomam {
+    font-size: 13px; }
+  .parrafonoticia {
+    font-size: 10px; }
+  .fondotexto {
+    font-size: 12px; } }
 
 .navp {
   display: flex;
@@ -177,9 +183,17 @@
 
 @media only screen and (max-width: 768px) {
   .fontia {
-    font-size: 40px; }
+    font-size: 25px; }
   .fonti {
     font-size: 20px; }
   .textocontacto {
     display: flex;
-    columns: 2fr; } }
+    justify-content: space-around;
+    font-size: 8px; }
+  .navp {
+    display: flex;
+    justify-content: space-between; }
+  .links {
+    font-size: 10px; }
+  .formulario {
+    display: table-cell; } }
